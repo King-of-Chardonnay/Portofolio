@@ -647,6 +647,8 @@
     }
 
     
+
+    
     #wrapper>.shape {
         height: 30%;
         width: 30%;
@@ -917,6 +919,7 @@
     }
     
     .shape a {
+        color: rgb(88, 1, 88);
         font-size: 2rem;
         font-weight: bolder;
     }
