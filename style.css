@@ -602,8 +602,8 @@
     }
     
     .time1 {
-        font-size: 6rem;
-        background: linear-gradient(to right, #000, purple);
+        font-size: 5rem;
+        background: linear-gradient(to left, #000, purple);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -922,7 +922,7 @@
     }
     
     .below {
-        padding: 4rem;
+        padding: 6rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -935,12 +935,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
         color: #fff;
     }
     
     .contact h3 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     @media screen and (max-width: 725px) {
