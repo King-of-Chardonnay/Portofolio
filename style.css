@@ -375,7 +375,6 @@
     }
     
     .container {
-        padding-top: 5rem;
         position: relative;
         display: block;
         align-content: center;
@@ -642,7 +641,11 @@
         aspect-ratio: 1.618;
         width: 90vmin;
         position: relative;
+        background-color: #741f81;
+        border-radius: 1rem;
+        box-shadow: 2px 3px 2px grey;
     }
+
     
     #wrapper>.shape {
         height: 30%;
@@ -969,6 +972,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         .container {
             padding-top: 1rem;
         }
