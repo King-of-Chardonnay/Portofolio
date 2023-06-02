@@ -302,7 +302,7 @@
         border: 1px solid #888;
         width: 80%;
         height: 70%;
-        background: url(/pictures/RC2.png);
+        background: url(./pictures/RC2.png);
         background-position: center;
         background-size: 100%;
     }
@@ -396,7 +396,7 @@
         height: 697px;
         background: #fff;
         border-radius: 2.3rem;
-        background: url(/pictures/OFBG.png);
+        background: url(./pictures/OFBG.png);
         background-position: top;
         background-size: 100%;
         transition: 12s;
@@ -415,7 +415,7 @@
         height: 52%;
         background: #fff;
         border-radius: 2rem;
-        background: url(/pictures/carsP.png);
+        background: url(./pictures/carsP.png);
         background-position: top;
         background-size: 100%;
         transition: 10s;
