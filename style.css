@@ -301,7 +301,7 @@
         padding: 20px;
         width: 80%;
         height: 80%;
-        background: url(pictures/TVK1.png), url(pictures/TVK2.png);
+        background-image: url(pictures/TVK1.png), url(pictures/TVK2.png);
         background-position: left center, right center;
         background-repeat: no-repeat, no-repeat;
         background-size: contain, contain;
