@@ -639,11 +639,10 @@
     
     #wrapper {
         aspect-ratio: 1.618;
-        width: 90vmin;
+        width: 100vmin;
         position: relative;
-        background-color: #741f81;
+        /* background: radial-gradient(purple, #741f81, #9940b5,#fff); */
         border-radius: 1rem;
-        box-shadow: 2px 3px 2px grey;
     }
 
     
@@ -664,7 +663,7 @@
     }
     
     #wrapper>.shape:nth-child(2) {
-        background-image: radial-gradient(#fff, #9940b5 75%);
+        background-image: radial-gradient(#fff, #9940b5 95%);
     }
     
     #wrapper>.shape:nth-child(3) {
@@ -676,7 +675,7 @@
     }
     
     #wrapper>.shape:nth-child(5) {
-        background-image: radial-gradient(#fff, #ab2bb4 75%);
+        background-image: radial-gradient(#fff, #ab2bb4 85%);
     }
     
     #wrapper>.shape:nth-child(6) {
@@ -919,7 +918,7 @@
     }
     
     .shape a {
-        color: rgb(88, 1, 88);
+        color: rgb(107, 2, 107);
         font-size: 2rem;
         font-weight: bolder;
     }
