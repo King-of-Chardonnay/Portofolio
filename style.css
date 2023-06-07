@@ -217,7 +217,8 @@
     }
     
     .cols h2 {
-        display: inline-block;
+        display: block;
+        
         font-size: 6rem;
         font-weight: 900;
     }
@@ -571,19 +572,6 @@
         top: 38%;
         right: 13%;
     }
-    
-    /* .time {
-        font-size: 12rem;
-        position: absolute;
-        top: 110%;
-        left: -18%;
-        z-index: 999999;
-        background: linear-gradient(to left, #fff, purple);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transform: perspective(5000px) rotateY(50deg) rotateX(50deg);
-        transform-style: preserve-3d;
-    } */
     
     .time1 {
         font-size: 5rem;
