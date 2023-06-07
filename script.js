@@ -1,3 +1,34 @@
+let btn = document.querySelector("#btn");
+let sidebar = document.querySelector(".sidebar");
+let searchBtn = document.querySelector(".fa-searchengin");
+
+btn.onclick = function() {
+    sidebar.classList.toggle("active");
+}
+
+searchBtn.onclick = function() {
+    sidebar.classList.toggle("active");
+}
+
+var lastScrollTop = 0;
+
+navbar = document.getElementById("navbar");
+window.addEventListener("scroll", function(){
+    var scrollTop = window.pageYOffset || document
+    .documentElement.scrollTop;
+    if(scrollTop > lastScrollTop){
+        navbar.style.top="-80%"; 
+        } else {
+            navbar.style.top="0";
+        }
+        lastScrollTop = scrollTop;
+}, 10000)
+
+
+
+
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -55,17 +86,9 @@ document.querySelector("h1").onmouseover = event => {
 
 
 
-let btn = document.querySelector("#btn");
-let sidebar = document.querySelector(".sidebar");
-let searchBtn = document.querySelector(".fa-searchengin");
 
-btn.onclick = function() {
-    sidebar.classList.toggle("active");
-}
 
-searchBtn.onclick = function() {
-    sidebar.classList.toggle("active");
-}
+
 
 
 
