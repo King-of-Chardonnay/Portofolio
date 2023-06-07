@@ -988,14 +988,8 @@
             height: 100vh;
         }
         .below {
-            height: 75vh;
-            padding: 3rem;
             display: block;
             flex-direction: column;
-            align-items: center;
-        }
-
-        .outer-face {
             align-items: center;
             justify-content: center;
         }
@@ -1005,5 +999,6 @@
 
         .contact {
             height: 10vh;
+            text-align: center;
         }
     }
