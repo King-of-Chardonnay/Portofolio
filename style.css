@@ -20,7 +20,7 @@
         width: 78px;
         padding: 6px 14px;
         color: #fff;
-        transition: all 0.5s ease;
+        transition: all 1.3s ease-out;
         mix-blend-mode: difference;
         
     }
