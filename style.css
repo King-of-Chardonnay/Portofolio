@@ -226,14 +226,15 @@
         color: purple;
         text-transform: capitalize;
     }
-    
+
     .btns {
         width: 100%;
         position: relative;
         display: flex;
-        left: 115px;
-        bottom: -10px;
+        left: 0;
+        top: -10px;
     }
+    
     
     .btns a {
         text-decoration: none;
@@ -571,7 +572,7 @@
         right: 13%;
     }
     
-    .time {
+    /* .time {
         font-size: 12rem;
         position: absolute;
         top: 110%;
@@ -582,7 +583,7 @@
         -webkit-text-fill-color: transparent;
         transform: perspective(5000px) rotateY(50deg) rotateX(50deg);
         transform-style: preserve-3d;
-    }
+    } */
     
     .time1 {
         font-size: 5rem;
@@ -938,11 +939,10 @@
         }
         .header {
             display: flex;
-            height: 91vh;
+            height: 90vh;
             flex-direction: column;
             justify-content: start;
             padding: 2rem;
-            gap: .8rem;
             align-items: start;
         }
         .headshot {
@@ -953,9 +953,10 @@
             opacity: 1;
         }
         h3 span {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: purple;
         }
+        
         h1 {
             color: white;
             font-size: 7rem;
@@ -971,15 +972,9 @@
         }
         .cols h2 {
             font-size: 4rem;
-            font-weight: 900;
+            font-weight: 800;
         }
-        .btns {
-            width: 100%;
-            position: relative;
-            display: flex;
-            left: 0px;
-            bottom: -10px;
-        }
+
         .outer-face {
             position: absolute;
             width: 250px;
@@ -993,11 +988,17 @@
             height: 100vh;
         }
         .below {
+            padding: 4rem;
             display: block;
             flex-direction: column;
             align-items: center;
         }
         .time1 {
-            font-size: 5rem;
+            font-size: 3rem;
+        }
+
+        .contact {
+            height: 10vh;
+            font-size: 1rem;
         }
     }
