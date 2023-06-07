@@ -962,6 +962,10 @@
     }
     
     @media screen and (max-width: 725px) {
+
+        .sidebar.active {
+            width: 150px;
+        }
         .header {
             display: flex;
             height: 91vh;
