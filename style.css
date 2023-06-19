@@ -238,6 +238,10 @@
         left: 0;
         top: -10px;
     }
+
+    #myBtn {
+        background: transparent;
+    }
     
     
     .btns a {
