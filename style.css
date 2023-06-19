@@ -21,7 +21,7 @@
         padding: 6px 14px;
         color: #fff;
         transition: all 1.3s ease-out;
-        mix-blend-mode: difference;
+       
         
     }
     
@@ -167,7 +167,6 @@
         width: 100%;
         object-fit: cover;
         border-radius: 64% 12% 37%;
-        opacity: .9;
         transform: translateX(-150%);
         animation: slideLeft 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 
@@ -177,6 +176,10 @@
         to {
             transform: translateX(0);
         }
+    }
+
+    .purpWave {
+        width: 100%;
     }
     
     h3 span {
@@ -918,6 +921,11 @@
     
     .contact h3 {
         font-size: 2rem;
+    }
+
+
+    .pWave {
+        width: 100%;
     }
     
     @media screen and (max-width: 725px) {
